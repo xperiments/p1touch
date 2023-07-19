@@ -4,6 +4,14 @@
 
 This repository contains the design files and resources for the screen of the Bambulab P1 Series printer. The screen serves as the user interface for controlling and monitoring the printer's functions and settings.
 
+# Required Hardware
+
+Currently is has been only tested in the Cheap 2.8 inch ESP32-2432S028R board you can buy it here:
+
+[https://fr.aliexpress.com/item/1005004502250619.html](https://fr.aliexpress.com/item/1005004502250619.html)
+
+In the future maybe I refactor it to the 5inch or 7inch
+
 ## Features
 
 The Bambulab P1 Series Printer Screen includes the following features:
