@@ -40,3 +40,9 @@ Settings
 - Provides options to reboot the device
 - Allows users to reset the touch configuration, which will be applied upon reboot
 - Offers the ability to restore default settings for WiFi and P1PTouch configurations
+
+# Installation
+
+Use the [Online Web Installer](https://xperiments.in/p1touch/webusb)
+
+# Setup
