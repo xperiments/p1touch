@@ -8,6 +8,10 @@ This repository contains the design files and resources for the screen of the Ba
 
 Currently is has been only tested in the Cheap 2.8 inch ESP32-2432S028R board you can buy it here:
 
+![image](https://github.com/xperiments/p1touch/assets/417709/28bdca76-9e49-4aab-a4c1-b714546077b4)
+![image](https://github.com/xperiments/p1touch/assets/417709/658061e4-d638-4d1e-ab99-268baba40ebc)
+
+
 [https://fr.aliexpress.com/item/1005004502250619.html](https://fr.aliexpress.com/item/1005004502250619.html)
 
 In the future maybe I refactor it to the 5inch or 7inch
