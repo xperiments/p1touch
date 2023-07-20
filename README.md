@@ -1,3 +1,5 @@
+![image](https://github.com/xperiments/p1touch/assets/417709/0131a007-0720-47a0-a92a-47130f6b1577)
+
 # Bambulab P1 Series Printer Screen
 
 ![image](https://github.com/xperiments/p1touch/assets/417709/cc6dd9ed-5c0f-4396-8859-09d312bc84a9)
