@@ -27,6 +27,10 @@ In the future maybe I refactor it to the 5inch or 7inch
 
 [https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main)
 
+
+# Step 3d files WIP
+
+[https://github.com/xperiments/p1touch/blob/main/P1PTouchWhole.step](https://github.com/xperiments/p1touch/blob/main/P1PTouchWhole.step)
 ## Features
 
 The Bambulab P1 Series Printer Screen includes the following features:
