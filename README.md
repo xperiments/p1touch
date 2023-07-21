@@ -19,11 +19,11 @@ In the future maybe I refactor it to the 5inch or 7inch
 
 ## Install drivers
 
-https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all
+[https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
 ## Some info about the board itsetlf
 
-https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main
+[https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main)
 
 ## Features
 
