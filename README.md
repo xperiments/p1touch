@@ -96,10 +96,15 @@ Use the [Online Web Installer](https://xperiments.in/p1touch/webusb)
 ## Configure Your P1P/P1S settings
 <img src="https://github.com/xperiments/p1touch/assets/417709/1136271d-d3c8-4ef2-ad56-a62f9d4f568a" width="320"/>
 
+> **Warning**
+> P1P Serial NEEDS TO BE UPPERCASE
+
+<img src="https://github.com/xperiments/p1touch/assets/417709/69f77a07-08a0-4df8-a26a-f31cb12d6ec9" width="320"/>
+
 ## Save settings and continue connection in the P1Touch Screen.
 ### First time you need to calibrate touch sensor. Just tap with the stylus in the cross.
 
-<img src="https://github.com/xperiments/p1touch/assets/417709/69f77a07-08a0-4df8-a26a-f31cb12d6ec9" width="320"/>
+
 
 
 
