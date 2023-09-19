@@ -94,8 +94,6 @@ Before you begin the installation process for the P1Touch Screen, it's essential
 
    Your SD card is now properly initialized with the required WiFi configuration. This configuration will enable the P1Touch Screen to connect to your WiFi network during the installation process. Ensure that the SD card is securely inserted into the touch screen before proceeding with the installation steps outlined in the previous sections of this README.md file.
 
-   Certainly, here's an addition to the installation section of your README.md file explaining the Online Web Installer process:
-
 ### Online Web Installer
 
 To set up your P1Touch Screen, you will need to use the Online Web Installer. Follow these steps to complete the installation:
@@ -182,18 +180,22 @@ Please ensure that the access code is kept secure and that you clear the access 
 - **Top Bar**: Displays WiFi, camera, timelapse, and AMS status.
 - **Light Control**: Toggle the printer's light on/off.
 - **Temperature Indicators**: Real-time nozzle, bed, and chamber temperature indicators.
-- **Status Area**: Shows a "Ready" message when the printer is idle; during printing, it displays print control buttons, progress, and estimated time. Allows real-time print speed adjustment.
+- **Status Area**: The Status Area on the touch screen serves two main purposes:
+
+  - **Idle State**: When the printer is not in use, it displays a "Ready" message with the main logo.
+  - **Printing State**: During printing, it provides pause/stop buttons, a progress bar, layer info, and a print speed selector for real-time control and monitoring.
 
 ### Temperature / Fan Screen
 
-- **Temperature Indicators**: Display nozzle, bed, and chamber temperatures.
-- **Temperature Adjustment**: Tap on any indicator to change the temperature or fan speed.
+On this screen, you'll find four buttons, each representing the temperature or fan speed of a specific sensor. Tapping any of these buttons will direct you to a numeric keyboard screen where you can easily adjust the corresponding temperature or speed value. After making your changes, you can return to the initial screen with a simple tap.
 
 ### Control Screen
 
-- **Homing**: Home the printer.
-- **XYZ Position Control**: Precise control over the print head's XYZ position.
-- **Step Size**: Switch between 1mm and 10mm head movement steps.
+This screen provides essential controls for managing your printer:
+
+- **Homing**: Initiates printer homing procedure.
+- **XYZ Position Control**: Enables precise control of the print head's XYZ position.
+- **Step Size**: Allows you to toggle between 1mm and 10mm head movement increments for finer or quicker adjustments.
 
 ### Filament Screen
 
@@ -203,23 +205,21 @@ Please ensure that the access code is kept secure and that you clear the access 
 
 #### LCD
 
-- **Change Backlight**: Adjust the screen backlight.
-- **Set Screen Sleep Time**: Configure the screen's sleep time (set to 0 to disable).
-- **Invert Screen Colors**: Toggle screen color inversion.
+- **Change Backlight**: In the "Change Backlight" settings, you can adjust the screen backlight to your preferred brightness level.
+- **Set Screen Sleep Time**: Set Screen Sleep Time: Adjusts the screen's inactivity timer. When the screen is idle for the specified time (in minutes), it enters sleep mode to save power. Set to 0 to keep the screen always active. During an active print job, the screen stays on for real-time monitoring.
+- **Invert Screen Colors**: Toggle to reverse screen colors. Useful for addressing compatibility issues with certain devices.
 - **Flip Screen**: Flip the screen orientation.
 
 #### PRINTERS
 
-- **Unlink Printer**: Disconnect the printer from the touch screen.
-- **Clear Access Code Cache**: Remove cached printer access codes.
+- **Unlink Printer**: Disconnect the current printer from the touch screen. This allows you to switch between different printers seamlessly.
+- **Clear Access Code Cache**: Erases stored printer serial numbers and access codes. Requires reestablishing printer pair connections.
 
 #### XTOUCH
 
 - **AUX FAN**: Enable the auxiliary fan for printers that initially lack it.
 - **CHAMBER Temp**: Enable chamber temperature monitoring for printers without it.
 - **OTA Update**: Enable OTA upgrades for firmware updates.
-
-Certainly, here's the updated explanation for the "OTA Update Procedure" section in your README.md file:
 
 ## OTA Update Procedure
 
@@ -242,8 +242,6 @@ The P1Touch Screen supports Over-The-Air (OTA) firmware updates, making it easy 
    - If an update is available, the touch screen will automatically download the latest firmware and apply the upgrade. This process is seamless and requires no manual intervention.
 
 By enabling OTA updates in the Settings Screen, you ensure that your P1Touch Screen stays current with the latest software enhancements and bug fixes without the need for manual updates. This convenient feature ensures that you always have access to the best performance and functionality that the device can offer.
-
-Certainly, here's the explanation for the standard firmware update procedure in your README.md file:
 
 ## Standard Firmware Update
 
@@ -279,8 +277,6 @@ If you prefer to manually update the firmware of your P1Touch Screen or if OTA u
    - You can verify the firmware version in the touch screen's settings section to ensure that it matches the latest version.
 
 By following these steps, you can manually update the firmware of your P1Touch Screen to the latest version, ensuring that you have access to all the latest features and improvements.
-
-Certainly, here's the Troubleshooting section for your README.md file:
 
 ## Troubleshooting
 
