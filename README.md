@@ -123,8 +123,6 @@ To set up your P1Touch Screen, you will need to use the Online Web Installer. Fo
 
    - Turn on the P1Touch Screen. It will now be fully initialized and ready for use with your 3D printer.
 
-Thank you for providing additional details. Here's the updated explanation for the "Linking Printer" section in your README.md file:
-
 ### Linking Printer
 
 During the installation process, you will need to link your P1Touch Screen with your 3D printer. Follow these steps to successfully establish the connection:
