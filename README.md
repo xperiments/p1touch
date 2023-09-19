@@ -2,28 +2,30 @@
 
 ## Table of Contents
 
-1. [Introduction](#1.-introduction)
-2. [Features](##2.-features)
-3. [Installation](##3.-installation)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
    - [Install Drivers](#install-drivers)
    - [Prepare the SD card](#prepare-the-sd-card)
    - [Online Web Installer](#online-web-installer)
    - [Linking Printer](#linking-printer)
-4. [Screens](#4.-screens)
+4. [Screens](#screens)
    - [Main](#main-screen)
    - [Temperature / Fan](#temperature--fan-screen)
    - [Control](#control-screen)
    - [Filament](#filament-screen)
    - [Settings](#settings-screen)
-5. [OTA Update Procedure](#5.-ota-update-procedure)
+5. [OTA Update Procedure](#ota-update-procedure)
+6. [Standard Firmware Update](#standard-firmware-update)
+7. [Troubleshooting](#troubleshooting)
 
 ---
 
-## 1. Introduction
+## Introduction
 
 The P1Touch Screen is a revolutionary addition to your BambuLab Printer, enhancing the user experience and providing advanced control and monitoring capabilities. This detailed README.md guide will walk you through the product's features, installation process, and the functionality of different screens.
 
-## Required Hardware
+### Required Hardware
 
 Currently, it has only been tested on the affordable 2.8-inch ESP32-2432S028R board, which is available for purchase here:
 
@@ -32,11 +34,11 @@ Currently, it has only been tested on the affordable 2.8-inch ESP32-2432S028R bo
 
 [https://fr.aliexpress.com/item/1005004502250619.html](https://fr.aliexpress.com/item/1005004502250619.html)
 
-## Optional Hardware
+### Optional Hardware
 
 For printers that do not have an integrated chamber temperature sensor, you have the option to add an external DS18B20 temperature sensor. This sensor will provide accurate chamber temperature readings and enhance the functionality of your P1Touch Screen.
 
-### Required Sensor:
+#### Required Sensor:
 
 - **DS18B20 Temperature Sensor**: You can purchase a DS18B20 temperature sensor from various suppliers. Here's an example from [AliExpress](https://fr.aliexpress.com/item/1005001665962941.html) that you can consider.
 
@@ -44,7 +46,7 @@ For printers that do not have an integrated chamber temperature sensor, you have
 
 Adding the DS18B20 temperature sensor is an optional but valuable enhancement for printers that initially lack chamber temperature monitoring capabilities. It enables you to maintain optimal printing conditions and achieve better print results.
 
-## 2. Features
+## Features
 
 - **Advanced Touch Screen**: A touch screen interface for intuitive printer control.
 - **Status Indicators**: Top bar indicating WiFi connectivity, camera status, timelapse recording, and AMS status.
@@ -55,7 +57,7 @@ Adding the DS18B20 temperature sensor is an optional but valuable enhancement fo
 - **Customizable Settings**: Access a wide range of LCD and printer-related settings.
 - **OTA Updates**: Enable over-the-air updates for firmware enhancements.
 
-## 3. Installation
+## Installation
 
 ### Install Drivers
 
@@ -74,23 +76,25 @@ Before you begin the installation process for the P1Touch Screen, it's essential
    - On the root directory of the SD card, create a JSON configuration file named `wifi.json`. You can use a plain text editor to create this file.
 
 3. **Edit the Configuration File**:
+
    - Open the `wifi.json` file in a text editor and replace the following placeholders with the actual information for your WiFi network:
 
-```json
-{
-  "ssid": "your_ssid_name",
-  "pwd": "your_ssid_password"
-}
-```
+   ```json
+   {
+     "ssid": "your_ssid_name",
+     "pwd": "your_ssid_password"
+   }
+   ```
 
-Replace `"your_ssid_name"` with your WiFi network's SSID (name) and `"your_ssid_password"` with your WiFi network's password.
+   Replace `"your_ssid_name"` with your WiFi network's SSID (name) and `"your_ssid_password"` with your WiFi network's password.
 
 4. **Save the Configuration File**:
-   - Save the changes you made to the `wifi.json` file.
 
-Your SD card is now properly initialized with the required WiFi configuration. This configuration will enable the P1Touch Screen to connect to your WiFi network during the installation process. Ensure that the SD card is securely inserted into the touch screen before proceeding with the installation steps outlined in the previous sections of this README.md file.
+   Save the changes you made to the `wifi.json` file.
 
-Certainly, here's an addition to the installation section of your README.md file explaining the Online Web Installer process:
+   Your SD card is now properly initialized with the required WiFi configuration. This configuration will enable the P1Touch Screen to connect to your WiFi network during the installation process. Ensure that the SD card is securely inserted into the touch screen before proceeding with the installation steps outlined in the previous sections of this README.md file.
+
+   Certainly, here's an addition to the installation section of your README.md file explaining the Online Web Installer process:
 
 ### Online Web Installer
 
@@ -171,7 +175,7 @@ By following these steps, you will be able to link your P1Touch Screen with your
 
 Please ensure that the access code is kept secure and that you clear the access code cache in the Settings Screen if you wish to unlink the printer or start the linking process for a different printer.
 
-## 4. Screens
+## Screens
 
 ### Main Screen
 
@@ -217,7 +221,7 @@ Please ensure that the access code is kept secure and that you clear the access 
 
 Certainly, here's the updated explanation for the "OTA Update Procedure" section in your README.md file:
 
-## 5. OTA Update Procedure
+## OTA Update Procedure
 
 The P1Touch Screen supports Over-The-Air (OTA) firmware updates, making it easy to keep your device up to date with the latest features and improvements. To enable and utilize OTA updates, follow these steps:
 
@@ -241,7 +245,7 @@ By enabling OTA updates in the Settings Screen, you ensure that your P1Touch Scr
 
 Certainly, here's the explanation for the standard firmware update procedure in your README.md file:
 
-## 6. Standard Firmware Update
+## Standard Firmware Update
 
 If you prefer to manually update the firmware of your P1Touch Screen or if OTA updates are not enabled, you can follow this procedure:
 
@@ -275,3 +279,35 @@ If you prefer to manually update the firmware of your P1Touch Screen or if OTA u
    - You can verify the firmware version in the touch screen's settings section to ensure that it matches the latest version.
 
 By following these steps, you can manually update the firmware of your P1Touch Screen to the latest version, ensuring that you have access to all the latest features and improvements.
+
+Certainly, here's the Troubleshooting section for your README.md file:
+
+## Troubleshooting
+
+If you encounter issues during the installation or operation of your BambuLab Printers Touch Screen, you can refer to the following troubleshooting steps to resolve common problems:
+
+1. **Use a Data Cable**:
+
+   - Ensure that you are using a data cable (not just a charging cable) to connect your touch screen to your computer during the installation process. A data cable is required for proper communication.
+
+2. **SD Card Compatibility**:
+
+   - Keep in mind that SD cards from different manufacturers may behave differently. While many SD cards work seamlessly, some may not be fully compatible with the touch screen. If you experience issues with an SD card, consider trying a different brand or model to see if it resolves the problem.
+
+3. **WiFi Connection Loop**:
+
+   - In some cases, users have reported that after confirming their WiFi credentials are correct, the device enters into a continuous loop without establishing a connection. This issue can sometimes be resolved by adjusting the WiFi connection timeout.
+
+   - To do this, modify the `wifi.json` file and include a numerical parameter for the timeout. Increasing the timeout value can help address this issue.
+
+   Example `wifi.json` with a timeout parameter:
+
+   ```json
+   {
+     "ssid": "your_ssid_name",
+     "pwd": "your_ssid_password",
+     "timeout": 5000
+   }
+   ```
+
+- In the above example, the `timeout` value is set to `5000` milliseconds `5s`. Adjust this value as needed to ensure a stable WiFi connection. Save the changes to the `wifi.json` file and proceed with the installation.
