@@ -7,9 +7,8 @@ You can purchase a DS18B20 temperature sensor from various suppliers. Here's an 
 1. [Introduction](#introduction)
 2. [Required Hardware](#required-hardware)
 3. [Installation Instructions](#installation-instructions)
-   - [Step 1: Gather the Necessary Components](#step-1-gather-the-necessary-components)
-   - [Step 2: Sensor Pinout and Connection](#step-2-sensor-pinout-and-connection)
-   - [Step 3: Configuration on the P1Touch Screen](#step-3-configuration-on-the-p1touch-screen)
+   - [Step 2: Sensor Pinout and Connection](#step-1-sensor-pinout-and-connection)
+   - [Step 1: Configuration on the P1Touch Screen](#step-2-configuration-on-the-p1touch-screen)
 4. [Monitoring Chamber Temperature](#monitoring-chamber-temperature)
 5. [Conclusion](#conclusion)
 
