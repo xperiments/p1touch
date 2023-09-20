@@ -307,3 +307,18 @@ If you encounter issues during the installation or operation of your BambuLab Pr
    ```
 
 - In the above example, the `timeout` value is set to `5000` milliseconds `5s`. Adjust this value as needed to ensure a stable WiFi connection. Save the changes to the `wifi.json` file and proceed with the installation.
+
+4. **Recalibrating the Screen**:
+
+   If you encounter touch screen calibration issues or misalignment, you can recalibrate the screen by removing the `touch.json` file located in the `xtouch` directory on the SD card. Follow these steps:
+
+   - Power off the P1Touch Screen.
+   - Remove the SD card from the touch screen.
+   - Insert the SD card into your computer.
+   - Navigate to the `xtouch` directory on the SD card.
+   - Delete the `touch.json` file.
+   - Safely eject the SD card from your computer.
+   - Reinsert the SD card into the touch screen.
+   - Power on the touch screen.
+
+   The touch screen will automatically perform a recalibration process upon startup.
