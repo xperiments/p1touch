@@ -36,15 +36,7 @@ Currently, it has only been tested on the affordable 2.8-inch ESP32-2432S028R bo
 
 ### Optional Hardware
 
-For printers that do not have an integrated chamber temperature sensor, you have the option to add an external DS18B20 temperature sensor. This sensor will provide accurate chamber temperature readings and enhance the functionality of your P1Touch Screen.
-
-#### Required Sensor:
-
-- **DS18B20 Temperature Sensor**: You can purchase a DS18B20 temperature sensor from various suppliers. Here's an example from [AliExpress](https://fr.aliexpress.com/item/1005001665962941.html) that you can consider.
-
-(TBD) To integrate the DS18B20 temperature sensor with your P1Touch Screen, follow the provided instructions for sensor installation and configuration. Once connected, the touch screen will display chamber temperature readings, allowing you to monitor and control the printing environment with greater precision.
-
-Adding the DS18B20 temperature sensor is an optional but valuable enhancement for printers that initially lack chamber temperature monitoring capabilities. It enables you to maintain optimal printing conditions and achieve better print results.
+- **[DS18B20 Temperature Sensor](docs/temperature-sensor.md)**: For printers that do not have an integrated chamber temperature sensor, you have the option to add an external DS18B20 temperature sensor. This sensor will provide accurate chamber temperature readings and enhance the functionality of your P1Touch Screen.
 
 ## Features
 
