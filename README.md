@@ -54,6 +54,7 @@ Adding the DS18B20 temperature sensor is an optional but valuable enhancement fo
 - **Printing Control**: Full control over your print job, including the ability to change print speed during printing.
 - **Precise Control**: Control your printer's XYZ position with adjustable head movement steps (1mm and 10mm).
 - **Filament Handling**: Load, unload, extrude, and retract filament (Note: Filament handling available only for printers without AMS initially).
+- **Switch Between Printers**: With a single P1Touch Screen, you can seamlessly switch between different printers. The access code for linked printers is saved for future use, making it convenient to switch printer connections.
 - **Customizable Settings**: Access a wide range of LCD and printer-related settings.
 - **OTA Updates**: Enable over-the-air updates for firmware enhancements.
 
