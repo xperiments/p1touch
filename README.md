@@ -19,7 +19,8 @@
 6. [Standard Firmware Update](#standard-firmware-update)
 7. [Troubleshooting](#troubleshooting)
 
----
+> **Warning**
+[P1P/S 01.04.00.00 LAN Mode Bug](#p1ps-01040000-lan-mode-bug)
 
 ## Introduction
 
@@ -299,7 +300,7 @@ If you encounter issues during the installation or operation of your BambuLab Pr
    }
    ```
 
-- In the above example, the `timeout` value is set to `5000` milliseconds `5s`. Adjust this value as needed to ensure a stable WiFi connection. Save the changes to the `wifi.json` file and proceed with the installation.
+   - In the above example, the `timeout` value is set to `5000` milliseconds `5s`. Adjust this value as needed to ensure a stable WiFi connection. Save the changes to the `wifi.json` file and proceed with the installation.
 
 4. **Recalibrating the Screen**:
 
@@ -315,3 +316,27 @@ If you encounter issues during the installation or operation of your BambuLab Pr
    - Power on the touch screen.
 
    The touch screen will automatically perform a recalibration process upon startup.
+
+5. **P1P/S 01.04.00.00 LAN Mode Bug**:
+
+   #### P1P/S 01.04.00.00 LAN Mode Bug
+
+   In firmware version 1.4 of the printer, a critical bug has been identified that prevents the successful use of LAN mode. This bug disrupts the connection between the printer and BambuStudio, causing frequent disconnections and rendering LAN mode unusable.
+
+   #### Impact
+
+   The impact of this bug is significant, as LAN mode is a preferred choice for many users for its reliability and speed advantages. Disconnections disrupt the seamless interaction between the printer and BambuStudio, making it difficult to monitor and control print jobs effectively.
+
+   #### Possible Solutions
+
+   To address the LAN mode bug in firmware version 1.4, users can consider the following possible solutions:
+
+   1. **Change to Cloud Mode**:
+
+      - Users can switch from LAN mode to Cloud mode, where the bug does not exist. Cloud mode enables remote monitoring and control of the printer through the BambuStudio cloud platform. While this solution maintains connectivity, it may require an active internet connection.
+
+   2. **Revert Firmware to Version 1.3**:
+
+      - Another option is to revert the printer's firmware to version 1.3, where the LAN mode bug is not present. This solution allows users to continue using LAN mode without disruptions while avoiding the bug associated with version 1.4.
+
+      - However, downgrading firmware versions should be performed carefully, following the manufacturer's instructions, as firmware changes can have their own implications.
