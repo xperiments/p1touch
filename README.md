@@ -82,6 +82,9 @@ Before you begin the installation process for the P1Touch Screen, it's essential
 
    Replace `"your_ssid_name"` with your WiFi network's SSID (name) and `"your_ssid_password"` with your WiFi network's password.
 
+   > **Warning**
+   If you are unsure how to create the `wifi.json` file, you can use the [Online wifi.json Form](https://retroconsol.es/products/p1touch/webusb/ssid.html) for step-by-step instructions.
+
 4. **Save the Configuration File**:
 
    Save the changes you made to the `wifi.json` file.
@@ -301,6 +304,9 @@ If you encounter issues during the installation or operation of your BambuLab Pr
    ```
 
    - In the above example, the `timeout` value is set to `5000` milliseconds `5s`. Adjust this value as needed to ensure a stable WiFi connection. Save the changes to the `wifi.json` file and proceed with the installation.
+
+   > **Warning**
+   If you are unsure how to create the `wifi.json` file, you can use the [Online wifi.json Form](https://retroconsol.es/products/p1touch/webusb/ssid.html) for step-by-step instructions.
 
 4. **Recalibrating the Screen**:
 
