@@ -308,7 +308,7 @@ If you encounter issues during the installation or operation of your BambuLab Pr
    > **Warning**
    > If you are unsure how to create the `wifi.json` file, you can use the [Online wifi.json Form](https://retroconsol.es/products/p1touch/webusb/ssid.html) for step-by-step instructions.
 
-4. **Troubleshooting Endless Reboots in Printer Startup**:
+4. **Endless Reboots in Printer Startup**:
 
    - Sometimes, users may encounter an issue where the printer and xtouch screen go through an endless reboot cycle during the device's power-on process, preventing xtouch from becoming ready. This problem can often be resolved by adjusting the "coldboot" value within the "wifi.json" configuration file.
 
